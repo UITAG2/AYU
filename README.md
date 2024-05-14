@@ -1,4 +1,3 @@
-# AYU
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +12,11 @@
 			color: white;
 			display: inline-block;
 			position: relative;
-			top: 80px;
-			left: 300px;
 			border-radius: 5px;
 			line-height: 100px;
 			text-decoration-line: none;
+			top: 80px;
+			left: 300px;
 		}
 		img {
 			position: absolute;
@@ -26,12 +25,15 @@
 		}
 		.main-link02 { 
 			width: 550px; height: 100px;
+			font-size: 25px;
 			background-color: darkgrey;
 			color: white;
-			opacity: 0.5;
 			display: inline-block;
 			position: relative;
-			top: 70px;
+			border-radius: 5px;
+			line-height: 100px;
+			text-decoration-line: none;
+			top: 80px;
 			left: 430px;
 		}
 		body {
@@ -49,7 +51,30 @@
 			background-attachment: fixed;
 		}
 		.in-con01 {
-			
+			width: 450px; height: 100px;
+			font-size: 15px;
+			background-color: darkgrey;
+			color: white;
+			display: inline-block;
+			position: relative;
+			border-radius: 5px;
+			line-height: 100px;
+			text-decoration-line: none;
+			top: 90px;
+			left: 250px;
+		}
+		.in-con02 {
+			width: 550px; height: 100px;
+			font-size: 25px;
+			background-color: darkgrey;
+			color: white;
+			display: inline-block;
+			position: relative;
+			border-radius: 5px;
+			line-height: 100px;
+			text-decoration-line: none;
+			top: 90px;
+			left: 300px;
 		}
 	</style>
 </head>
@@ -57,6 +82,28 @@
 	<!--전체적인 문제점
 		1. 배경 이미지가 흐릿함
 		2. main-linkBox의 글자들이 흐릿함 = body로 잡아놔서 그런듯
+		포지션은 쌓는 것이다.
+
+		<style>
+			#event-test {
+				background: red;
+				height: 100vh;
+				position: relative;
+			}
+			.overlay {
+				position: fixed;
+				top: 100px;
+				left: 100px;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 255, 0.2);
+			}
+		</style>
+		<body>
+			<div id="event-test">
+				<div class="overlay"></div>
+			</div>
+		</body>
 	-->
 	<div class="inner">
 		<div class="main-linkBox">
@@ -68,14 +115,16 @@
 				<!--화살표 이미지 코드 작성-->
 			</a>
 			<a class="main-link02" href="https://enter.anyang.ac.kr/enter/main.do">
-				<strong>안양대학교 입학처 홈페이지 바로가기&nbsp;</strong>
+				<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT7rC-LXSafeJ-SSxpPH5I1Lx28tpeg5VJI9w9MpmFVshXTVaWO", width="60px", height="60px">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<strong>안양대학교 입학처 홈페이지&nbsp;</strong>
 				<span>바로가기</span>
 				<!--화살표 이미지 코드 작성-->
 			</a>
 		</div>
 		<div class="in-box01">
 			<p class="in-con01">
-				<span>교육부 3주기 대학기본역량진단</span>
+				<span>교육부 3주기 대학기본역량진단</span><br>
 				<strong>'일반재정지원대학'</strong>
 				"선정"
 			</p>
