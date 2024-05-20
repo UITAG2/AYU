@@ -5,10 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
+        /* .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(10px);
+            }
+		#background {
+				background-image: url(https://www.anyang.ac.kr/_res/anyang/_share/img/img_intro.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                position: relative;
+                color: white;
+		} */
+		body {
+			background-image: url(https://www.anyang.ac.kr/_res/anyang/_share/img/img_intro.jpg);
+		}
 		.main-link01 { 
-			width: 550px; height: 100px;
-			font-size: 25px;
-			background-color: darkgrey;
+			width: 549px; height: 92.41px;
+			font-size: 21.6px;
+			background-color: #FFFFFF1A;
 			color: white;
 			display: inline-block;
 			position: relative;
@@ -24,9 +44,9 @@
 			top: 20px;
 		}
 		.main-link02 { 
-			width: 550px; height: 100px;
-			font-size: 25px;
-			background-color: darkgrey;
+			width: 549px; height: 92.41px;
+			font-size: 21.6px;
+			background-color: #FFFFFF1A;
 			color: white;
 			display: inline-block;
 			position: relative;
@@ -36,83 +56,110 @@
 			top: 80px;
 			left: 430px;
 		}
-		body {
-			height: 100vh;
-    		background: url(https://image.fnnews.com/resource/media/image/2022/01/19/202201191303150219_l.jpg) no-repeat center;
-   			background-size: cover;
-			/* 배경 이미지 선명하게 하기 */
-			image-rendering: -webkit-optimize-contrast; /* chrome */
-			image-rendering: crisp-edges;
-			transform: translateZ(0);
-			backface-visibility: hidden;
-
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-attachment: fixed;
-		}
 		.in-con01 {
-			width: 450px; height: 100px;
-			font-size: 15px;
-			background-color: darkgrey;
+			top: 100px;
+			left: 250px;
+			width: 417.98px; height: 91.41px;
+			font-size: 21.6px;
+			background-color: #FFFFFF1A;
 			color: white;
 			display: inline-block;
 			position: relative;
 			border-radius: 5px;
 			line-height: 100px;
 			text-decoration-line: none;
-			top: 90px;
-			left: 250px;
 		}
 		.in-con02 {
-			width: 550px; height: 100px;
-			font-size: 25px;
-			background-color: darkgrey;
+			left: 300px;
+			width: 407.98px; height: 91.41px;
+			font-size: 21.6px;
+			background-color: #FFFFFF1A;
 			color: white;
 			display: inline-block;
 			position: relative;
 			border-radius: 5px;
 			line-height: 100px;
 			text-decoration-line: none;
-			top: 90px;
-			left: 300px;
+		}
+		.in-con03 {
+			left: 350px;
+			width: 407.98px; height: 91.41px;
+			font-size: 21.6px;
+			background-color: #FFFFFF1A;
+			color: white;
+			display: inline-block;
+			position: relative;
+			border-radius: 5px;
+			line-height: 100px;
+			text-decoration-line: none;
+		}
+		.in-link01 {
+			top: 25px;
+			left: 400px;
+			width: 254.39px; height: 192.08px;
+			color: white;
+			display: inline-block;
+			position: relative;
+			font-size: 18px;
+			background-color: #06222F33;
+			text-decoration-line: none;
+			border: 1px solid gray;
+		}
+		.in-link02 {
+			left: 450px;
+			width: 254.39px; height: 192.08px;
+			color: white;
+			display: inline-block;
+			position: relative;
+			font-size: 18px;
+			background-color: #06222F33;
+			text-decoration-line: none;
+			border: 1px solid gray;
+		}
+		.in-link03 {
+			left: 500px;
+			width: 254.39px; height: 192.08px;
+			color: white;
+			display: inline-block;
+			position: relative;
+			font-size: 18px;
+			background-color: #06222F33;
+			text-decoration-line: none;
+			border: 1px solid gray;
+		}
+		.in-link04 {
+			left: 550px;
+			width: 254.39px; height: 192.08px;
+			color: white;
+			display: inline-block;
+			position: relative;
+			font-size: 18px;
+			background-color: #06222F33;
+			text-decoration-line: none;
+			border: 1px solid gray;
+		}
+		.in-link05 {
+			top: 200px;
+			right: 180px;
+			width: 254.39px; height: 192.08px;
+			color: white;
+			display: inline-block;
+			position: relative;
+			font-size: 18px;
+			background-color: #06222F33;
+			text-decoration-line: none;
+			border: 1px solid gray;
 		}
 	</style>
 </head>
 <body>
-	<!--전체적인 문제점
-		1. 배경 이미지가 흐릿함
-		2. main-linkBox의 글자들이 흐릿함 = body로 잡아놔서 그런듯
-		포지션은 쌓는 것이다.
-
-		<style>
-			#event-test {
-				background: red;
-				height: 100vh;
-				position: relative;
-			}
-			.overlay {
-				position: fixed;
-				top: 100px;
-				left: 100px;
-				width: 100%;
-				height: 100%;
-				background: rgba(0, 0, 255, 0.2);
-			}
-		</style>
-		<body>
-			<div id="event-test">
-				<div class="overlay"></div>
-			</div>
-		</body>
-	-->
 	<div class="inner">
 		<div class="main-linkBox">
 			<a class="main-link01" href="https://www.anyang.ac.kr">
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOtYWgw9Yz0VZN91BQapj1QSy0GWeNrHJepYuBGIu38U1pj1A", width="60px", height="60px">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOtYWgw9Yz0VZN91BQapj1QSy0GWeNrHJepYuBGIu38U1pj1A", class="image1" width="60px", height="60px">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<strong>안양대학교 홈페이지&nbsp;</strong>
 				<span>바로가기</span>
-				<!--화살표 이미지 코드 작성-->
 			</a>
 			<a class="main-link02" href="https://enter.anyang.ac.kr/enter/main.do">
 				<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT7rC-LXSafeJ-SSxpPH5I1Lx28tpeg5VJI9w9MpmFVshXTVaWO", width="60px", height="60px">
@@ -124,6 +171,8 @@
 		</div>
 		<div class="in-box01">
 			<p class="in-con01">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQYys6Cgkw7F34pw-csxS62qMw8Vej56me7QxrknNgDAHH7GL", width="60px", height="60px">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<span>교육부 3주기 대학기본역량진단</span><br>
 				<strong>'일반재정지원대학'</strong>
 				"선정"
@@ -140,22 +189,24 @@
 			</p>
 		</div>
 		<div class="in-box02">
-			<a class="in-link03" href="https://enter.anyang.ac.kr/enter/early/notice.do?mode=view&amp;articleNo=27229&amp;article.offset=0&amp;articleLimit=10" target="_blank" title="새창바로가기">
+			<a class="in-link01" href="https://enter.anyang.ac.kr/enter/early/notice.do?mode=view&amp;articleNo=27229&amp;article.offset=0&amp;articleLimit=10" target="_blank" title="새창바로가기">
 				<p style="color: rgb(183, 240, 177);">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBx3nT2UwcGTanN9Y-YDekYbcgE15eH3nwXXpFmPxTQCx84a84" width="100px", height="100px">
 					<strong>대학입학전형시행계획 주요사항</strong>
 				</p>2025학년도<!--span>바로가기</span-->
 			</a>
-			<a class="in-link03" href="https://enter.anyang.ac.kr/enter/expatriate/notice.do?mode=view&amp;articleNo=27234&amp;article.offset=0&amp;articleLimit=10&amp;srCategoryId=14" target="_blank" title="새창바로가기">
+			<a class="in-link02" href="https://enter.anyang.ac.kr/enter/expatriate/notice.do?mode=view&amp;articleNo=27234&amp;article.offset=0&amp;articleLimit=10&amp;srCategoryId=14" target="_blank" title="새창바로가기">
 				<p style="color: rgb(209, 178, 255);">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBx3nT2UwcGTanN9Y-YDekYbcgE15eH3nwXXpFmPxTQCx84a84" width="100px", height="100px">
 					<strong>재외국민과 외국인 주요사항</strong>
 				</p>2025학년도<!--span>바로가기</span-->
 			</a>
-			<a class="in-link06" href="https://cs.u-is.co.kr/anyang/intro.htm" target="_blank" title="새창바로가기">
+			<a class="in-link03" href="https://cs.u-is.co.kr/anyang/intro.htm" target="_blank" title="새창바로가기">
 				<p style="color: rgb(255, 193, 158);">
 					<strong>입학 성적산출</strong>
 				</p>3개년 입시결과<!--span>바로가기</span-->
 			</a>
-			<a class="in-link07" href="https://enter.anyang.ac.kr/enter/counseling/ask-and-answer.do" target="_blank" title="새창바로가기">
+			<a class="in-link04" href="https://enter.anyang.ac.kr/enter/counseling/ask-and-answer.do" target="_blank" title="새창바로가기">
 				<p style="color: rgb(250, 237, 125);">
 					<strong>입학 상담문의</strong>
 				</p>묻고 답하기<!--span>바로가기</span-->
