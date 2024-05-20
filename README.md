@@ -104,6 +104,8 @@
 			background-color: #06222F33;
 			text-decoration-line: none;
 			border: 1px solid gray;
+			text-align: center;
+			margin: 0 auto;
 		}
 		.in-link02 {
 			left: 450px;
@@ -115,6 +117,7 @@
 			background-color: #06222F33;
 			text-decoration-line: none;
 			border: 1px solid gray;
+			text-align: center;
 		}
 		.in-link03 {
 			left: 500px;
@@ -126,6 +129,7 @@
 			background-color: #06222F33;
 			text-decoration-line: none;
 			border: 1px solid gray;
+			text-align: center;
 		}
 		.in-link04 {
 			left: 550px;
@@ -137,6 +141,7 @@
 			background-color: #06222F33;
 			text-decoration-line: none;
 			border: 1px solid gray;
+			text-align: center;
 		}
 		.in-link05 {
 			top: 200px;
@@ -149,6 +154,7 @@
 			background-color: #06222F33;
 			text-decoration-line: none;
 			border: 1px solid gray;
+			text-align: center;
 		}
 	</style>
 </head>
@@ -156,7 +162,7 @@
 	<div class="inner">
 		<div class="main-linkBox">
 			<a class="main-link01" href="https://www.anyang.ac.kr">
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOtYWgw9Yz0VZN91BQapj1QSy0GWeNrHJepYuBGIu38U1pj1A", class="image1" width="60px", height="60px">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOtYWgw9Yz0VZN91BQapj1QSy0GWeNrHJepYuBGIu38U1pj1A", width="60px", height="60px">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<strong>안양대학교 홈페이지&nbsp;</strong>
 				<span>바로가기</span>
@@ -190,28 +196,33 @@
 		</div>
 		<div class="in-box02">
 			<a class="in-link01" href="https://enter.anyang.ac.kr/enter/early/notice.do?mode=view&amp;articleNo=27229&amp;article.offset=0&amp;articleLimit=10" target="_blank" title="새창바로가기">
+				<br><br><br>
 				<p style="color: rgb(183, 240, 177);">
-					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBx3nT2UwcGTanN9Y-YDekYbcgE15eH3nwXXpFmPxTQCx84a84" width="100px", height="100px">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBx3nT2UwcGTanN9Y-YDekYbcgE15eH3nwXXpFmPxTQCx84a84" width="100px", height="100px", text-align>
 					<strong>대학입학전형시행계획 주요사항</strong>
 				</p>2025학년도<!--span>바로가기</span-->
 			</a>
 			<a class="in-link02" href="https://enter.anyang.ac.kr/enter/expatriate/notice.do?mode=view&amp;articleNo=27234&amp;article.offset=0&amp;articleLimit=10&amp;srCategoryId=14" target="_blank" title="새창바로가기">
+				<br><br><br>
 				<p style="color: rgb(209, 178, 255);">
 					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBx3nT2UwcGTanN9Y-YDekYbcgE15eH3nwXXpFmPxTQCx84a84" width="100px", height="100px">
 					<strong>재외국민과 외국인 주요사항</strong>
 				</p>2025학년도<!--span>바로가기</span-->
 			</a>
 			<a class="in-link03" href="https://cs.u-is.co.kr/anyang/intro.htm" target="_blank" title="새창바로가기">
+				<br><br><br>
 				<p style="color: rgb(255, 193, 158);">
 					<strong>입학 성적산출</strong>
 				</p>3개년 입시결과<!--span>바로가기</span-->
 			</a>
 			<a class="in-link04" href="https://enter.anyang.ac.kr/enter/counseling/ask-and-answer.do" target="_blank" title="새창바로가기">
+				<br><br><br>
 				<p style="color: rgb(250, 237, 125);">
 					<strong>입학 상담문의</strong>
 				</p>묻고 답하기<!--span>바로가기</span-->
 			</a>
 			<a class="in-link05" href="https://enter.anyang.ac.kr/enter/early/notice.do?mode=view&amp;articleNo=19656&amp;article.offset=0&amp;articleLimit=10" target="_blank" title="새창바로가기">
+				<br><br><br>
 				<p style="color: rgb(178, 235, 244);">
 					<strong>전과제도 안내</strong>
 				</p>신입학<!--span>바로가기</span-->
