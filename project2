@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .FAQ {
+            text-align: center;
+        }
+        .list {
+            position: relative;
+            left: 1100px;
+            top: 10px;
+            width: 80px;
+            height: 30px;
+        }
+        .search {
+            position: relative;
+            width: 300px;
+            left: 1200px;
+            top: -20px;
+        }
+        input {
+            width: 100%;
+            border: 1px solid #bbb;
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+        img {
+            position : absolute;
+            width: 17px;
+            top: 10px;
+            left: 295px;
+            margin: 0;
+        }
+        .img2 {
+            position:relative
+        }
+        .table {
+            margin: auto;
+            border-top: 2px solid blue;
+        }
+        .table tbody td {
+            border-bottom: 1px solid blue;
+            height: 50px;
+        }
+        .board_page {
+            margin-top: 30px;
+            /* ㄴ🟡 위로 여백 */
+            text-align: center;
+            /* ㄴ🟡 가운데정렬로 */
+            font-size: 0;
+            /* ㄴ🟡 페이지 순서 박스 사이의 여백 없애기 */
+            
+        }
+        .board_page a {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            box-sizing: border-box;
+            /* ㄴ🟡 board_page a.bt과 num 에 패딩값을 넣게 되면서 상자가 길어지게 되는데, 이를 방지 하기 위해서 이 패딩값을 넘지 말아라~ 하는 코딩부분(전체높이 32px를 넘지 않게)*/
+            vertical-align: middle;
+            /* ㄴ🟡박스 높낮이 같게 */
+            border-left: 0;
+            line-height: 100%;
+        }
+        .board_page a.bt {
+            text-decoration: none;
+            padding-top: 5px;
+            font-size: 1.2rem;
+            letter-spacing: -1px;
+        }
+        .board_page a.num {
+            padding-top: 5px;
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
+        .board_page a.num.on {
+            text-decoration: none;
+            border-radius: 5px;
+            border-color: #000000;
+            background: #061986;
+            color: #fff;
+        }
+        .board_page a:first-child {
+            border-left: 1px solid #ddd;
+        }
+        .button {
+            position: relative;
+            left: 1457px;
+            width: 80px;
+            height: 40px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="FAQ">FAQ</h1>
+    <select class="list">
+        <option>전체</option>
+        <option>제목</option>
+        <option>내용</option>
+        <option>작성자</option>
+    </select>
+    <div class="search">
+        <input type="text" placeholder="검색어를 입력해 주세요">
+        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+    </div>
+    <table class="table">
+        <tr>
+            <td class="img2"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="50px"></td>
+            <td>[건강지원센터] 학교 보건실은 어디 있나요?</td>
+        </tr>
+        <tr>
+            <td>[장학지원센터]국가장학금과 기타 장학금을 중복으로 지원받을 수 있나요?</td>
+        </tr>
+        <tr>
+            <td>[장학지원센터]국가장학금 신청은 어떻게 하나요?</td>
+        </tr>
+        <tr>
+            <td>[생활관]주소지 이전 및 우선 선발 대상자인 경우 어떻게 해야 되나요?</td>
+        </tr>
+        <tr>
+            <td>[생활관]기숙사 입사 필수 제출 서류가 무엇이 있나요?</td>
+        </tr>
+        <tr>
+            <td>[생활관]생활관 입사 신청 일정은 어떻게 되나요?</td>
+        </tr>
+        <tr>
+            <td>[생활관]생활관 입사 신청 자격은 어떻게 되나요?</td>
+        </tr>
+        <tr>
+            <td>[장애학생지원센터] 장애학생 등록 및 장애학생 지원에는 어떤 것들이 있나요?</td>
+        </tr>
+        <tr>
+            <td>[사회봉사센터]학교에서 봉사활동을 할 수 있는 방법이 있나요?</td>
+        </tr>
+        <tr>
+            <td>[학생지원과]분실물 센터는 어디인가요?</td>
+        </tr>
+    </table>
+    <div class="board_page">
+        <a href="#" class="num on">1</a>
+        <a href="#" class="num">2</a>
+        <a href="#" class="bt next">></a>
+        <a href="#" class="bt last">>></a>
+    </div>
+    <form>
+        <button class="button">전체목록</button>
+    </form>
+    </div>
+</body>
+</html>
