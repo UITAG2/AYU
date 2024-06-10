@@ -27,15 +27,62 @@
             padding: 10px 12px;
             font-size: 14px;
         }
-        img {
+        .image {
             position : absolute;
             width: 17px;
             top: 10px;
             left: 295px;
             margin: 0;
         }
-        .img2 {
-            position:relative
+        .img01 {
+            position: relative;
+            top: 50px;
+            left: 660px;
+        }
+        .img02 {
+            position: relative;
+            top: 105px;
+            left: 630px;
+        }
+        .img03 {
+            position: relative;
+            top: 160px;
+            left: 600px;
+        }
+        .img04 {
+            position: relative;
+            top: 215px;
+            left: 570px;
+        }
+        .img05 {
+            position: relative;
+            top: 270px;
+            left: 540px;
+        }
+        .img06 {
+            position: relative;
+            top: 325px;
+            left: 510px;
+        }
+        .img07 {
+            position: relative;
+            top: 380px;
+            left: 480px;
+        }
+        .img08 {
+            position: relative;
+            top: 435px;
+            left: 450px;
+        }
+        .img09 {
+            position: relative;
+            top: 490px;
+            left: 420px;
+        }
+        .img10 {
+            position: relative;
+            top: 545px;
+            left: 390px;
         }
         .table {
             margin: auto;
@@ -106,39 +153,48 @@
     </select>
     <div class="search">
         <input type="text" placeholder="검색어를 입력해 주세요">
-        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" class="image">
     </div>
     <table class="table">
         <tr>
-            <td class="img2"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="50px"></td>
-            <td>[건강지원센터] 학교 보건실은 어디 있나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img01">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[건강지원센터] 학교 보건실은 어디 있나요?</td>
         </tr>
         <tr>
-            <td>[장학지원센터]국가장학금과 기타 장학금을 중복으로 지원받을 수 있나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img02">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[장학지원센터]국가장학금과 기타 장학금을 중복으로 지원받을 수 있나요?</td>
         </tr>
         <tr>
-            <td>[장학지원센터]국가장학금 신청은 어떻게 하나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img03">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[장학지원센터]국가장학금 신청은 어떻게 하나요?</td>
         </tr>
         <tr>
-            <td>[생활관]주소지 이전 및 우선 선발 대상자인 경우 어떻게 해야 되나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img04">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[생활관]주소지 이전 및 우선 선발 대상자인 경우 어떻게 해야 되나요?</td>
         </tr>
         <tr>
-            <td>[생활관]기숙사 입사 필수 제출 서류가 무엇이 있나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img05">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[생활관]기숙사 입사 필수 제출 서류가 무엇이 있나요?</td>
         </tr>
         <tr>
-            <td>[생활관]생활관 입사 신청 일정은 어떻게 되나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img06">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[생활관]생활관 입사 신청 일정은 어떻게 되나요?</td>
         </tr>
         <tr>
-            <td>[생활관]생활관 입사 신청 자격은 어떻게 되나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img07">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[생활관]생활관 입사 신청 자격은 어떻게 되나요?</td>
         </tr>
         <tr>
-            <td>[장애학생지원센터] 장애학생 등록 및 장애학생 지원에는 어떤 것들이 있나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img08">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[장애학생지원센터] 장애학생 등록 및 장애학생 지원에는 어떤 것들이 있나요?</td>
         </tr>
         <tr>
-            <td>[사회봉사센터]학교에서 봉사활동을 할 수 있는 방법이 있나요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img09">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[사회봉사센터]학교에서 봉사활동을 할 수 있는 방법이 있나요?</td>
         </tr>
         <tr>
-            <td>[학생지원과]분실물 센터는 어디인가요?</td>
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuE4D9aG48ycUpLfTA2KBPYhJAtv06i9qvIvDMGBAcIch_hr1T" alt="" width="30px", height="30px", class="img10">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[학생지원과]분실물 센터는 어디인가요?</td>
         </tr>
     </table>
     <div class="board_page">
