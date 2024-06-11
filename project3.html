@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .notice {
+            text-align: center;
+        }
+        .table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 1000px;
+            height: 50px;
+            text-align: center;
+            color:#28409a;
+            border: #28409a;
+        }
+        .list {
+            position: relative;
+            left: 1030px;
+            top: 10px;
+            width: 80px;
+            height: 30px;
+        }
+        .search {
+            position: relative;
+            width: 300px;
+            height: 50px;
+            left: 1125px;
+            top: -20px;
+        }
+        input {
+            width: 100%;
+            border: 1px solid #bbb;
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+        img {
+            position : absolute;
+            width: 17px;
+            top: 10px;
+            left: 295px;
+            margin: 0;
+        }
+        .all {
+            background-color: #28409a;
+            color: white;
+        }
+        .table2 {
+            margin: auto;
+            border-top: 2px solid blue;
+            border-collapse: collapse;
+            width: 1000px;
+            height: 100px;
+            text-align: center;
+        }
+        .table2 tbody td {
+            border-bottom: 1px solid blue;
+        }
+        .title {
+            padding: 20px;
+        }
+        .td {
+            height: 50px;
+        }
+        .board_page {
+            margin-top: 30px;
+            /* ㄴ🟡 위로 여백 */
+            text-align: center;
+            /* ㄴ🟡 가운데정렬로 */
+            font-size: 0;
+            /* ㄴ🟡 페이지 순서 박스 사이의 여백 없애기 */
+            
+        }
+        .board_page a {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            box-sizing: border-box;
+            /* ㄴ🟡 board_page a.bt과 num 에 패딩값을 넣게 되면서 상자가 길어지게 되는데, 이를 방지 하기 위해서 이 패딩값을 넘지 말아라~ 하는 코딩부분(전체높이 32px를 넘지 않게)*/
+            vertical-align: middle;
+            /* ㄴ🟡박스 높낮이 같게 */
+            border-left: 0;
+            line-height: 100%;
+        }
+        .board_page a.bt {
+            text-decoration: none;
+            padding-top: 5px;
+            font-size: 1.2rem;
+            letter-spacing: -1px;
+            color: #000000;
+        }
+        .board_page a.num {
+            padding-top: 5px;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: #000000;
+        }
+        .board_page a.num.on {
+            text-decoration: none;
+            border-radius: 5px;
+            border-color: #000000;
+            background: #061986;
+            color: #fff;
+        }
+        .board_page a:first-child {
+            border-left: 1px solid #ddd;
+        }
+        .button {
+            position: relative;
+            left: 1374px;
+            width: 80px;
+            height: 40px;
+            font-size: 13px;
+            border-color: #bbb;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="notice">공지사항</h1>
+        <table class="table" border="1">
+            <tr>
+                <td class="all">전체</td>
+                <td>대학교</td>
+                <td>학사</td>
+                <td>대학원</td>
+                <td>취업정보</td>
+                <td>입찰/채용</td>
+            </tr>
+        </table>
+        <select class="list">
+            <option>전체</option>
+            <option>제목</option>
+            <option>내용</option>
+            <option>작성자</option>
+        </select>
+        <div class="search">
+            <input type="text" placeholder="검색어를 입력해 주세요">
+            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+        </div>
+        <table class="table2">
+            <tr>
+                <td>번호</td>
+                <td>분류</td>
+                <td class="title" style="width: 400px;">제목</td>
+                <td>작성자</td>
+                <td>작성일</td>
+                <td>조회</td>
+                <td>파일</td>
+            </tr>
+            <tr class="td">
+                <td>공지</td>
+                <td>대학교</td>
+                <td>[장학]제3기 디딤돌 장학생 선발</td>
+                <td>장학지원센터</td>
+                <td>24.06.03</td>
+                <td>159</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>공지</td>
+                <td>학사</td>
+                <td>24년 하계 계절수업 안내</td>
+                <td>학사지원과</td>
+                <td>24.05.30</td>
+                <td>1013</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>공지</td>
+                <td>대학교</td>
+                <td>2024학년도 1학기 학부 분납 4차 등록급 납부 안내</td>
+                <td>재무과</td>
+                <td>24.05.28</td>
+                <td>624</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>공지</td>
+                <td>대학원</td>
+                <td>2024학년도 1학기 대학원 분납 4차 등록급 납부 안내</td>
+                <td>재무과</td>
+                <td>24.05.28</td>
+                <td>605</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>4596</td>
+                <td>대학교</td>
+                <td>[인재역량개발센터] 2024 취업캠프(가상회사 경영게임)</td>
+                <td>취창업지원단</td>
+                <td>24.05.27</td>
+                <td>826</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>4595</td>
+                <td>대학교</td>
+                <td>2024 신촌글로벌대학문화축제 참가자 모집</td>
+                <td>학생지원과</td>
+                <td>24.05.27</td>
+                <td>174</td>
+                <td>  </td>
+            </tr>
+            <tr class="td">
+                <td>4594</td>
+                <td>대학교</td>
+                <td>2024년 [경기도 청년 노동 통장] 참여자 모집에 따른 홍보</td>
+                <td>학생지원과</td>
+                <td>24.05.26</td>
+                <td>34</td>
+                <td>  </td>
+            </tr>
+        </table>
+        <div class="board_page">
+            <a href="#" class="num on">1</a>
+            <a href="#" class="num">2</a>
+            <a href="#" class="num">3</a>
+            <a href="#" class="num">4</a>
+            <a href="#" class="num">5</a>
+            <a href="#" class="num">6</a>
+            <a href="#" class="num">7</a>
+            <a href="#" class="num">8</a>
+            <a href="#" class="num">9</a>
+            <a href="#" class="num">10</a>
+            <a href="#" class="bt next">></a>
+            <a href="#" class="bt last">>></a>
+        </div>
+        <form>
+            <button class="button">전체목록</button>
+        </form>
+    </div>
+</body>
+</html>
