@@ -1,0 +1,215 @@
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>안양대학교</title>
+        <!-- Font Awesome 라이브러리 추가 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #012877;
+                color: white;
+                padding: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .left-section {
+                display: flex;
+                align-items: center;
+            }
+            .logo-title {
+                display: flex;
+                align-items: center;
+            }
+            .logo-title img {
+                height: 50px;
+                margin-right: 10px;
+            }
+            .logo-title h1 {
+                margin: 0;
+                font-size: 1.5em;
+            }
+            .logo-title h1 span {
+                display: block;
+                font-size: 0.5em;
+            }
+            .main-nav {
+                display: flex;
+                align-items: center;
+                margin-left: 100px;
+            }
+            .main-nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px; /* 간격을 넓히기 위해 수정 */
+                font-size: 1em;
+            }
+            .right-nav {
+                display: flex;
+                align-items: center;
+            }
+            .right-nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 1em;
+            }
+            .right-nav a:last-child {
+                margin-right: 30px; /* 입학안내와 돋보기 아이콘 사이의 간격 조정 */
+            }
+            .right-nav i {
+                color: white;
+                text-decoration: none;
+                font-size: 1em;
+                margin-left: 50px; /* 돋보기와 메뉴보기 아이콘 사이 간격 조정 */
+            }
+            main {
+                padding: 20px;
+            }
+            .notice-title {
+                color: #0044cc; /* 파란 글씨 */
+                font-size: 1em;
+                text-align: center;
+                margin: 40px 0 10px 0; /* 위아래 간격 */
+            }
+            .notice-content {
+                font-size: 2.8em; /* 큰 글씨 */
+                text-align: center;
+                margin: 10px 0; /* 위아래 간격 */
+            }
+            .separator {
+                width: 85%; /* 선의 길이 */
+                height: 2px; /* 선의 두께 */
+                background-color: #000; /* 선의 색상 */
+                margin: 1cm auto; /* 위아래 간격 및 가운데 정렬 */
+            }
+            .sub-menu {
+                display: flex;
+                justify-content: flex-start;
+                margin: 60px 0; /* 위아래 간격 */
+                padding-left: 150px; /* 왼쪽 패딩 */
+            }
+            .sub-menu a {
+                color: black; /* 검정 글씨 */
+                text-decoration: none;
+                margin-right: 50px; /* 오른쪽 간격 */
+                font-size: 1.9em;
+            }
+            .additional-content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* 2열 */
+                grid-gap: 20px; /* 각 항목 사이의 간격 */
+                padding: 20px 150px;
+                font-size: 1.2em;
+                line-height: 1.6;
+            }
+            .additional-content p {
+                margin: 0;
+                padding: 10px 0;
+                border-bottom: 1px solid #ddd; /* 아래에 얇은 선 추가 */
+            }
+            .more-link {
+                grid-column: span 2; /* "더보기" 링크를 2열 전체에 걸치게 함 */
+                text-align: center;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left-section">
+                <div class="logo-title">
+                    <img src="https://i.namu.wiki/i/gnN0hxhRYS9PsQqz1q31IDFxXZFIZIdy3Dbkp4Au4OAbjAeCbtPAORP-qlsWhS7K7CyC-jYfCPWbZ7ko84klMA.svg" alt="안양대학교 로고">
+                    <h1>안양대학교 <span>ANYANG UNIVERSITY</span></h1>
+                </div>
+                <nav class="main-nav">
+                    <a href="#">대학/법인소개</a>
+                    <a href="#">입학안내</a>
+                    <a href="#">대학/대학원</a>
+                    <a href="#">아리커뮤니티</a>
+                    <a href="#">학사안내</a>
+                    <a href="#">대학생활</a>
+                    <a href="#">발전기금</a>
+                </nav>
+            </div>
+            <nav class="right-nav">
+                <a href="#">포털시스템</a>
+                <a href="#">입학안내</a>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </nav>
+        </header>
+        <main>
+            <div class="notice-title">Notice & Event Information</div>
+            <div class="notice-content">안양인에게 알립니다</div>
+            <div class="sub-menu">
+                <a href="#">전체</a>
+                <a href="#">대학교</a>
+                <a href="#">학사</a>
+                <a href="#">대학원</a>
+                <a href="#">취업정보</a>
+                <a href="#">입찰/채용</a>
+                <a href="#">총장실</a>
+            </div>
+            <div class="separator"></div>
+            <div class="additional-content">
+                <p><strong>학사</strong> 2024년도 1학기 교직과정 실습강평회 및 현장교사 특강</p>
+                <p><strong>대학교</strong> 2024 안양대학교 인터넷·스마트폰 과의존 예방교육 실시</p>
+                <p><strong>취업정보</strong> [해외취업] 2024년 청년 해외취업지원과정(Global Young Challenger)</p>
+                <p><strong>학사</strong> 2024학년도 하계계절학기 을지대학교 학점교류 안내</p>
+                <p><strong>취업정보</strong> [채용박람회] 2024 관광 일자리 페스타 (인천편)</p>
+                <p><strong>대학교</strong> 청소년의 고립 은둔 실태조사</p>
+                <p><strong>취업정보</strong> [채용박람회] 2024 환경산업 일자리 박람회</p>
+                <p><strong>대학교</strong> 과천시종합자원봉사센터 청년영상봉사단 모집 홍보</p>
+            </div>
+            <div class="image-section" style="display: flex; align-items: center; margin-left: 150px;">
+                <img src="https://www.anyang.ac.kr/_res/anyang/main/img/img_special_t03m.png" alt="설명 텍스트" width="500" style="margin-right: 130px;">
+                <div class="image-text">
+                    <p class="blue-text">AYU INFORMATION</p>
+                    <p class="large-bold-text">아리교양대학</p>
+                    <p>인문,사회,자연과학의 기초, 심화 교육을 통해 한구석을 밝히는 아름다운 리더(아리)의 인성을</p>
+                    <p>함양하여 지역사회,국가공동체,나아가 인류 발전에 기여할 수 있는 교양인을 양성함</p>
+                </div>
+            </div>
+            <div class="image-navigation" style="text-align: center; margin-top: 10px; font-size: 1.2em;">
+                <a href="#">&lt; prev</a>
+                <span>01/06</span>
+                <a href="#">next &gt;</a>
+            </div>
+            <div class="image-container" style="position: relative; text-align: center; width: 70%; margin: 20px auto;">
+                <img src="https://www.anyang.ac.kr/_res/anyang/enter/img/main02.jpg" alt="설명 텍스트" style="width: 100%; height: auto;">
+                <div class="text-overlay" style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.0em; background: rgba(0, 0, 0, 0.5); padding: 10px;">
+                    AYU SERVICE
+                </div>
+                <div class="text-overlay" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 1.em; background: rgba(0, 0, 0, 0.5); padding: 10px;">
+                    포털 사이트 | 인터넷증명발급 | 평생교육원 | 산학협력단 | 발전기금 | 캠퍼스맵
+                </div>
+            </div>
+            </main>
+            <footer style="background-color: #012877; color: white; padding: 20px 0;">
+                <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
+                    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+                        <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">개인정보처리방침</a>
+                        <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">이용약관</a>
+                        <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">학교위치</a>
+                        <a href="#" style="color: white; text-decoration: none; margin: 0 10px;">연락처</a>
+                    </div>
+                    <div style="text-align: center; margin-bottom: 10px;">
+                        <p style="margin: 5px 0;">경기도 안양시 만안구 삼덕로 37번길 22</p>
+                        <p style="margin: 5px 0;">전화: 031-467-0700 | 팩스: 031-467-0739</p>
+                        <p style="margin: 5px 0;">이메일: webmaster@anyang.ac.kr</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <p style="margin: 5px 0;">© 2024 Anyang University. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>       
+    </body>
+</html>
